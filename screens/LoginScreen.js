@@ -67,7 +67,7 @@ const LoginScreen = () => {
     <View
       style={styles.container}
     >
-      <Toast />
+      <Toast ref={(ref) => Toast.setRef(ref)} />
       <ListIcon />
       <View style={styles.inputContainer}>
         <TextInput
